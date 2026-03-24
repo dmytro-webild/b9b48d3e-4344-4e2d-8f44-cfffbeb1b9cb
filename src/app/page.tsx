@@ -10,6 +10,7 @@ import HeroLogo from '@/components/sections/hero/HeroLogo';
 import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
+import { Zap, HeartPulse, Award, Eye } from 'lucide-react';
 import TestimonialCardTen from '@/components/sections/testimonial/TestimonialCardTen';
 
 export default function LandingPage() {
@@ -68,12 +69,14 @@ export default function LandingPage() {
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517809-xlh1ah1o.jpg"
       imageAlt="Longhorn cattle in a snowy field"
       showDimOverlay={true}
+      buttonAnimation="slide-up"
     />
   </div>
 
   <div id="about" data-section="about">
       <MetricSplitMediaAbout
       useInvertedBackground={false}
+      buttonAnimation="slide-up"
       title="Decades of Ranching Excellence in Pittsburgh, Kansas"
       description="Ron Brock Ranching is dedicated to raising premium longhorn and commercial cattle. With a deep heritage in agricultural stewardship, we combine traditional values with modern practices to ensure superior genetics, health, and temperament in every animal. Our commitment to quality has made us a trusted name for ranchers and buyers across the region."
       metrics={[
@@ -105,22 +108,22 @@ export default function LandingPage() {
         {
           title: "Superior Genetics",
           description: "We carefully select breeding stock to ensure robust health, desirable traits, and excellent growth potential for both longhorns and commercial cattle.",
-          buttonIcon: "Zap",
+          buttonIcon: Zap,
         },
         {
           title: "Optimal Health",
           description: "Our herd receives meticulous care, including regular veterinary check-ups, balanced nutrition, and clean environments, ensuring prime condition for sale.",
-          buttonIcon: "HeartPulse",
+          buttonIcon: HeartPulse,
         },
         {
           title: "Proven Performance",
           description: "Our cattle consistently demonstrate strong performance, whether for breeding, beef production, or expanding your own herd with reliable stock.",
-          buttonIcon: "Award",
+          buttonIcon: Award,
         },
         {
           title: "Transparency & Trust",
           description: "We provide comprehensive documentation and open communication, fostering trust with every transaction. What you see is what you get.",
-          buttonIcon: "Eye",
+          buttonIcon: Eye,
         },
       ]}
       title="Our Commitment to Quality Livestock"
@@ -221,6 +224,7 @@ export default function LandingPage() {
       ]}
       title="What Our Buyers Say"
       description="Hear directly from ranchers and investors who have experienced the quality and service of Ron Brock Ranching."
+      buttonAnimation="slide-up"
     />
   </div>
 
