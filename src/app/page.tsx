@@ -90,7 +90,7 @@ export default function LandingPage() {
           title: "Tier Genetics",
         },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517809-t78c1x07.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517809-t78c1x07.jpg?_wi=1"
       imageAlt="Cattle grazing in a field at sunrise"
       mediaAnimation="entrance-slide"
       metricsAnimation="entrance-slide"
@@ -166,7 +166,7 @@ export default function LandingPage() {
           id: "longhorn-calf",
           name: "Longhorn Calf",
           price: "Inquire for Price",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517810-veaq91h1.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517810-veaq91h1.jpg?_wi=1",
           imageAlt: "Young longhorn calf",
         },
       ]}
@@ -250,7 +250,7 @@ export default function LandingPage() {
           content: "Once you select your desired cattle, we will discuss pricing and payment options. We can assist with arrangements for transport if needed. A health certificate will be provided for all sales.",
         },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517810-veaq91h1.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517810-veaq91h1.jpg?_wi=2"
       imageAlt="Cattle and calf on ranch"
       mediaAnimation="entrance-slide"
       title="Frequently Asked Questions"
@@ -299,7 +299,7 @@ export default function LandingPage() {
         },
       ]}
       tag="Five Star Phone Books"
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517809-t78c1x07.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517809-t78c1x07.jpg?_wi=2"
       imageAlt="Cattle grazing in a field at sunrise"
       mediaAnimation="entrance-slide"
       metricsAnimation="entrance-slide"
