@@ -64,7 +64,7 @@ export default function LandingPage() {
       <MetricSplitMediaAbout
       useInvertedBackground={false}
       title="Decades of Ranching Excellence in Pittsburg, Kansas"
-      description="The story of Silvercreek Ranch begins with a deep-rooted passion for the land and its livestock. Founded on principles of integrity and sustainable stewardship, we’ve cultivated a legacy of excellence in raising longhorn and commercial cattle. Our commitment goes beyond breeding; it’s about nurturing a thriving environment where every animal embodies the heritage and future of quality ranching in Pittsburg, Kansas."
+      description="Silvercreek Ranch, founded on integrity and sustainable stewardship, boasts a legacy of excellence in raising longhorn and commercial cattle. Our commitment ensures every animal embodies the heritage and future of quality ranching."
       metrics={[
         {
           value: "30+",          title: "Years of Experience"},
