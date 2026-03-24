@@ -11,7 +11,6 @@ import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaA
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import { Award, HeartPulse, Home, Syringe } from 'lucide-react';
-import TestimonialCardTen from '@/components/sections/testimonial/TestimonialCardTen';
 
 export default function LandingPage() {
   return (
@@ -133,25 +132,6 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="testimonials" data-section="testimonials">
-      <TestimonialCardTen
-      textboxLayout="default"
-      useInvertedBackground={true}
-      testimonials={[
-        {
-          id: "1",          title: "Exceptional Quality Longhorns!",          quote: "Ron Brock Ranching provided us with some of the finest longhorns we've ever purchased. Their health and temperament are outstanding, a true testament to their care.",          name: "John Davis",          role: "Ranch Owner",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774389083920-b18ohh1d.jpg"},
-        {
-          id: "2",          title: "Reliable and Trustworthy Partner",          quote: "Working with Ron Brock was a fantastic experience. Transparent, knowledgeable, and genuinely committed to quality. We'll definitely be repeat buyers for our breeding stock.",          name: "Sarah Miller",          role: "Agricultural Investor",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774389083920-o61s5bng.jpg"},
-        {
-          id: "3",          title: "Highly Recommend for New Farmers",          quote: "As a hobby farmer expanding my operations, I needed guidance. Ron Brock made the process easy, providing healthy cattle and valuable advice. Couldn't be happier!",          name: "Michael Chen",          role: "Hobby Farmer",          imageSrc: "http://img.b2bpic.net/free-photo/young-handsome-cheerful-gardener-smiling-holding-pot-with-plant_176420-3830.jpg"},
-        {
-          id: "4",          title: "The Best Cattle in Kansas",          quote: "Ron Brock Ranching stands out for its exceptional livestock. From longhorns to commercial breeds, the quality is consistent, and the professionalism is unmatched.",          name: "Emily Johnson",          role: "Local Rancher",          imageSrc: "http://img.b2bpic.net/free-photo/worker-near-cistern-railway_1398-1878.jpg"}
-      ]}
-      title="Trusted by Ranchers Across the Region"
-      description="Hear directly from our clients about the exceptional quality of our livestock and the reliable service they've experienced with Silvercreek Ranch."
-      buttonAnimation="slide-up"
-    />
-  </div>
 
   <div id="faq" data-section="faq">
       <FaqSplitMedia
