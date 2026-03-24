@@ -32,13 +32,13 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",          href: "/"},
+          name: "Home",          id: "/"},
         {
-          name: "About",          href: "/#about"},
+          name: "About",          id: "/#about"},
         {
-          name: "Inventory",          href: "/inventory"},
+          name: "Inventory",          id: "/inventory"},
         {
-          name: "Contact",          href: "/#contact"},
+          name: "Contact",          id: "/#contact"},
       ]}
       brandName="Silvercreek Ranch"
     />
@@ -163,7 +163,7 @@ export default function LandingPage() {
         {
           id: "2",          title: "How do you ensure animal health?",          content: "Our cattle receive regular veterinary care, vaccinations, and are fed a balanced diet. We maintain detailed health records for all our animals, which are available upon request for serious buyers."},        {
           id: "3",          title: "Can I visit the ranch to view cattle?",          content: "Yes, we welcome potential buyers to visit our ranch in Pittsburgh, Kansas, by appointment. Please contact us to schedule a convenient time."},        {
-          id: "4",          title: "What is the purchasing process?",          content: "Once you select your desired cattle, we will discuss pricing and payment options. We can assist with arrangements for transport if needed. A health certificate will be provided for all sales."},n      ]}
+          id: "4",          title: "What is the purchasing process?",          content: "Once you select your desired cattle, we will discuss pricing and payment options. We can assist with arrangements for transport if needed. A health certificate will be provided for all sales."]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517810-veaq91h1.jpg?_wi=2"
       imageAlt="Cattle and calf on ranch"
       mediaAnimation="slide-up"
