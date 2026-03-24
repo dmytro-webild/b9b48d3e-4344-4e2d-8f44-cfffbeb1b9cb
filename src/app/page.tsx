@@ -161,8 +161,8 @@ export default function LandingPage() {
         {
           id: "1",          title: "What breeds of cattle do you offer?",          content: "We specialize in premium Texas Longhorns and high-quality commercial cattle, primarily Angus and Hereford crosses, suitable for various purposes including breeding, show, and beef production."},
         {
-          id: "2",          title: "How do you ensure animal health?",          content: "Our cattle receive regular veterinary care, vaccinations, and are fed a balanced diet. We maintain detailed health records for all our animals, which are available upon request for serious buyers."},n        {
-          id: "3",          title: "Can I visit the ranch to view cattle?",          content: "Yes, we welcome potential buyers to visit our ranch in Pittsburgh, Kansas, by appointment. Please contact us to schedule a convenient time."},n        {
+          id: "2",          title: "How do you ensure animal health?",          content: "Our cattle receive regular veterinary care, vaccinations, and are fed a balanced diet. We maintain detailed health records for all our animals, which are available upon request for serious buyers."},        {
+          id: "3",          title: "Can I visit the ranch to view cattle?",          content: "Yes, we welcome potential buyers to visit our ranch in Pittsburgh, Kansas, by appointment. Please contact us to schedule a convenient time."},        {
           id: "4",          title: "What is the purchasing process?",          content: "Once you select your desired cattle, we will discuss pricing and payment options. We can assist with arrangements for transport if needed. A health certificate will be provided for all sales."},n      ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517810-veaq91h1.jpg?_wi=2"
       imageAlt="Cattle and calf on ranch"
