@@ -11,8 +11,8 @@ import { Public_Sans } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'Ron Brock Ranching | Premium Longhorns & Cattle Sales in Pittsburgh, KS',
-  description: 'Discover high-quality longhorn and commercial cattle from Ron Brock Ranching in Pittsburgh, Kansas. Decades of expertise in breeding, sales, and ranch operations. View inventory, inquire, and invest in superior livestock.',
+  title: 'Silvercreek Ranch | Premium Longhorns & Cattle Sales in Pittsburgh, KS',
+  description: 'Discover high-quality longhorn and commercial cattle from Silvercreek Ranch in Pittsburgh, Kansas. Decades of expertise in breeding, sales, and ranch operations. View inventory, inquire, and invest in superior livestock.',
   keywords: ["Ron Brock Ranching, cattle sales, longhorns, commercial cattle, Pittsburgh Kansas, livestock, ranch operations, cattle inventory, breeding stock, agricultural investors, hobby farmers, quality cattle, animal health"],
   openGraph: {
     "title": "Ron Brock Ranching | Premium Longhorns & Cattle Sales in Pittsburgh, KS",
