@@ -36,7 +36,7 @@ export default function LandingPage() {
         {
           name: "About",          id: "about"},
         {
-          name: "Inventory",          href: "/inventory"},
+          name: "Inventory",          id: "/inventory"},
         {
           name: "Contact",          id: "contact"},
       ]}
