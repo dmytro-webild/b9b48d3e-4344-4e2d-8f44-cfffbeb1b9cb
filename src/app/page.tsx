@@ -65,7 +65,7 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <MetricSplitMediaAbout
       useInvertedBackground={false}
-      title="Decades of Ranching Excellence in Pittsburgh, Kansas"
+      title="Decades of Ranching Excellence in Pittsburg, Kansas"
       description="Silvercreek Ranch is dedicated to raising premium longhorn and commercial cattle. With a deep heritage in agricultural stewardship, we combine traditional values with modern practices to ensure superior genetics, health, and temperament in every animal. Our commitment to quality has made us a trusted name for ranchers and buyers across the region."
       metrics={[
         {
