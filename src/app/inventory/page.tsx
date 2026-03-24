@@ -24,11 +24,11 @@ export default function InventoryPage() {
         <div id="nav" data-section="nav">
           <NavbarStyleFullscreen
             navItems={[
-              { name: "Home", id: "hero", href: "/" },
-              { name: "About", id: "about", href: "/#about" },
-              { name: "Inventory", id: "products", href: "/inventory" },
-              { name: "Names & Numbers", id: "names-numbers", href: "/#names-numbers" },
-              { name: "Contact", id: "contact", href: "/#contact" }
+              { name: "Home", id: "hero" },
+              { name: "About", id: "about" },
+              { name: "Inventory", id: "products" },
+              { name: "Names & Numbers", id: "names-numbers" },
+              { name: "Contact", id: "contact" }
             ]}
             brandName="Silvercreek Ranch"
           />
