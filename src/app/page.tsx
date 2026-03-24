@@ -69,6 +69,7 @@ export default function LandingPage() {
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517809-xlh1ah1o.jpg"
       imageAlt="Longhorn cattle in a snowy field"
       showDimOverlay={true}
+      buttonAnimation="blur-reveal"
  
     />
   </div>
@@ -103,8 +104,9 @@ export default function LandingPage() {
   <div id="features" data-section="features">
       <FeatureCardTwentySix
       textboxLayout="default"
-      useInvertedBackground={true}
       buttonAnimation="slide-up"
+      useInvertedBackground={true}
+      buttonAnimation="blur-reveal"
       features={[
         {
           title: "Superior Genetics",
@@ -260,7 +262,7 @@ export default function LandingPage() {
       mediaAnimation="entrance-slide"
       title="Frequently Asked Questions"
       description="Find answers to common questions about our cattle, purchasing process, and ranching practices."
-      faqsAnimation="entrance-slide"
+      faqsAnimation="slide-up"
     />
   </div>
 
