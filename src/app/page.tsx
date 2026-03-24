@@ -12,7 +12,6 @@ import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/Nav
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import { Award, HeartPulse, Home, Syringe } from 'lucide-react';
 import TestimonialCardTen from '@/components/sections/testimonial/TestimonialCardTen';
-import SplitAbout from '@/components/sections/about/SplitAbout';
 
 export default function LandingPage() {
   return (
@@ -38,8 +37,6 @@ export default function LandingPage() {
           name: "About",          id: "about"},
         {
           name: "Inventory",          id: "products"},
-        {
-          name: "Names & Numbers",          id: "names-numbers"},
         {
           name: "Contact",          id: "contact"},
       ]}
@@ -67,7 +64,7 @@ export default function LandingPage() {
       <MetricSplitMediaAbout
       useInvertedBackground={false}
       title="Decades of Ranching Excellence in Pittsburg, Kansas"
-      description="Silvercreek Ranch is dedicated to raising premium longhorn and commercial cattle. With a deep heritage in agricultural stewardship, we combine traditional values with modern practices to ensure superior genetics, health, and temperament in every animal. Our commitment to quality has made us a trusted name for ranchers and buyers across the region."
+      description="The story of Silvercreek Ranch begins with a deep-rooted passion for the land and its livestock. Founded on principles of integrity and sustainable stewardship, we’ve cultivated a legacy of excellence in raising longhorn and commercial cattle. Our commitment goes beyond breeding; it’s about nurturing a thriving environment where every animal embodies the heritage and future of quality ranching in Pittsburg, Kansas."
       metrics={[
         {
           value: "30+",          title: "Years of Experience"},
@@ -194,30 +191,6 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="names-numbers" data-section="names-numbers">
-      <SplitAbout
-      useInvertedBackground={false}
-      title="Our Enduring Legacy in Ranching"
-      description="Silvercreek Ranch has a rich history built on dedication and excellence. Our commitment extends beyond just cattle; it's about fostering community and upholding the highest standards in agriculture."
-      bulletPoints={[
-        {
-          title: "Over 30 Years of Experience",          description: "Leveraging extensive knowledge in ranching and cattle management."},
-        {
-          title: "Hundreds of Cattle Successfully Placed",          description: "A proven track record of successful placements with satisfied clients."},
-        {
-          title: "Commitment to Top-Tier Genetics",          description: "Dedicated to superior breeding for healthy and high-quality livestock."},
-        {
-          title: "Community & Agricultural Stewardship",          description: "Actively supporting local farming communities and sustainable practices."}
-      ]}
-      tag="Our Impact"
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517809-t78c1x07.jpg?_wi=2"
-      imageAlt="Cattle grazing in a field at sunrise"
-      mediaAnimation="slide-up"
-      textboxLayout="default"
-      imagePosition="right"
-    />
-  </div>
-
   <div id="footer" data-section="footer">
       <FooterLogoEmphasis
       columns={[
@@ -233,8 +206,6 @@ export default function LandingPage() {
         },
         {
           items: [
-            {
-              label: "Names & Numbers",              href: "#names-numbers"},
             {
               label: "Contact",              href: "#contact"},
             {
