@@ -128,7 +128,7 @@ export default function LandingPage() {
       description="Explore our current inventory of robust longhorns and commercial cattle. Each animal comes with comprehensive health records and a history of dedicated care, ready to thrive in their new environment."
       buttons={[
         {
-          text: "View All Inventory",          href: "#products"},
+          text: "Inquire About Inventory",          href: "#contact"},
       ]}
     />
   </div>
