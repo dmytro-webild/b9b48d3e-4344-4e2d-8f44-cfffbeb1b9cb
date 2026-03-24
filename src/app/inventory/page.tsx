@@ -41,16 +41,16 @@ export default function InventoryPage() {
             useInvertedBackground={false}
             products={[
               {
-                id: "longhorn-maverick",                name: "Silvercreek's Maverick (Classic Longhorn Steer)",                price: "Inquire for Price",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171294-09aqo5qo.jpg",                imageAlt: "Classic Longhorn Steer Maverick"
+                id: "longhorn-maverick",                name: "Silvercreek's Maverick (Classic Longhorn Steer)",                price: "Inquire for Price",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171294-09aqo5qo.jpg?_wi=1",                imageAlt: "Classic Longhorn Steer Maverick"
               },
               {
-                id: "angus-beauty",                name: "Silvercreek's Black Beauty (Registered Angus Heifer)",                price: "Inquire for Price",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171296-favtlklr.jpg",                imageAlt: "Registered Angus Heifer Black Beauty"
+                id: "angus-beauty",                name: "Silvercreek's Black Beauty (Registered Angus Heifer)",                price: "Inquire for Price",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171296-favtlklr.jpg?_wi=1",                imageAlt: "Registered Angus Heifer Black Beauty"
               },
               {
-                id: "crossbreed-hardy",                name: "Silvercreek's Hardy Blend (Commercial Crossbreed)",                price: "Inquire for Price",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171296-n96vwy1s.jpg",                imageAlt: "Commercial Crossbreed Hardy Blend"
+                id: "crossbreed-hardy",                name: "Silvercreek's Hardy Blend (Commercial Crossbreed)",                price: "Inquire for Price",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171296-n96vwy1s.jpg?_wi=1",                imageAlt: "Commercial Crossbreed Hardy Blend"
               },
               {
-                id: "longhorn-star",                name: "Silvercreek's Little Star (Longhorn Calf)",                price: "Inquire for Price",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171297-6pr85tx4.jpg",                imageAlt: "Young longhorn calf Little Star"
+                id: "longhorn-star",                name: "Silvercreek's Little Star (Longhorn Calf)",                price: "Inquire for Price",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171297-6pr85tx4.jpg?_wi=1",                imageAlt: "Young longhorn calf Little Star"
               }
             ]}
             title="Our Premium Cattle Inventory"
