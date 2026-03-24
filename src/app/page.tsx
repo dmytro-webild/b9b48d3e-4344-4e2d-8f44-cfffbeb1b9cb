@@ -32,13 +32,13 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",          id: "hero"},
+          name: "Home",          id: "/"},
         {
-          name: "About",          id: "about"},
+          name: "About",          id: "/#about"},
         {
           name: "Inventory",          id: "/inventory"},
         {
-          name: "Contact",          id: "/contact"},
+          name: "Contact",          id: "/contact-us"},
       ]}
       brandName="Silvercreek Ranch"
     />
@@ -103,7 +103,7 @@ export default function LandingPage() {
       description="At Silvercreek Ranch, our dedication to superior cattle is evident in every aspect of our operation, from meticulous breeding to daily animal welfare."
       buttons={[
         {
-          text: "Learn About Our Standards",          href: "#about"},
+          text: "Learn About Our Standards",          href: "/#about"},
       ]}
     />
   </div>
@@ -128,7 +128,7 @@ export default function LandingPage() {
       description="Explore our current inventory of robust longhorns and commercial cattle. Each animal comes with comprehensive health records and a history of dedicated care, ready to thrive in their new environment."
       buttons={[
         {
-          text: "Inquire About Inventory",          href: "/contact"},
+          text: "Inquire About Inventory",          href: "/contact-us"},
       ]}
     />
   </div>
@@ -184,9 +184,7 @@ export default function LandingPage() {
       text="Ready to expand your herd or learn more? Contact Silvercreek Ranch today for personalized service and find the perfect cattle for your needs."
       buttons={[
         {
-          text: "Contact Us",          href: "/contact"},
-        {
-          text: "Email Us",          href: "mailto:info@silvercreekranch.com"},
+          text: "Contact Us",          href: "/contact-us"},
         {
           text: "Call Ron",          href: "tel:+16202314000"},
       ]}
@@ -209,7 +207,7 @@ export default function LandingPage() {
         {
           items: [
             {
-              label: "Contact",              href: "/contact"},
+              label: "Contact",              href: "/contact-us"},
             {
               label: "FAQ",              href: "/#faq"},
           ],

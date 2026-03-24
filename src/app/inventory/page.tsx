@@ -24,10 +24,10 @@ export default function InventoryPage() {
         <div id="nav" data-section="nav">
           <NavbarStyleFullscreen
             navItems={[
-              { name: "Home", id: "hero" },
-              { name: "About", id: "about" },
+              { name: "Home", id: "/" },
+              { name: "About", id: "/#about" },
               { name: "Inventory", id: "/inventory" },
-              { name: "Contact", id: "contact" }
+              { name: "Contact", id: "/contact-us" }
             ]}
             brandName="Silvercreek Ranch"
           />
@@ -57,7 +57,7 @@ export default function InventoryPage() {
             description="Explore our current selection of high-quality Longhorn and commercial cattle. Each animal is raised with meticulous care, adhering to rigorous health protocols and breeding standards to ensure superior genetics and temperament. Detailed information on health records, lineage, and specific traits is available upon inquiry."
             buttons={[
               {
-                text: "Contact for Details",                href: "/#contact" 
+                text: "Contact for Details",                href: "/contact-us" 
               }
             ]}
           />
@@ -75,7 +75,7 @@ export default function InventoryPage() {
               },
               {
                 items: [
-                  { label: "Contact", href: "/#contact" },
+                  { label: "Contact", href: "/contact-us" },
                   { label: "FAQ", href: "/#faq" }
                 ]
               },

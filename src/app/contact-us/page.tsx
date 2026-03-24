@@ -10,6 +10,7 @@ import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/Nav
 const NAVBAR_NAV_ITEMS = [
   { name: "Home", id: "/" },
   { name: "About", id: "/#about" }, // Link to about section on home page
+  { name: "Inventory", id: "/inventory" }, // Added for consistency
   { name: "Contact", id: "/contact-us" }, // Link to the new contact-us page
 ];
 
@@ -19,6 +20,7 @@ const FOOTER_COLUMNS = [
     items: [
       { label: "Home", href: "/" },
       { label: "About Us", href: "/#about" },
+      { label: "Inventory", href: "/inventory" } // Added for consistency
     ],
   },
   {
