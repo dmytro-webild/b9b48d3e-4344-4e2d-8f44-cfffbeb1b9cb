@@ -42,14 +42,14 @@ export default function LandingPage() {
         {
           name: "Contact",          id: "contact"},
       ]}
-      brandName="Ron Brock Ranching"
+      brandName="Silvercreek Ranch"
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroLogo
-      logoText="Ron Brock Ranching"
-      description="Ron Brock's family ranch delivers quality livestock backed by decades of ranching expertise. Browse current inventory or connect directly for personalized service."
+      logoText="Silvercreek Ranch"
+      description="Silvercreek Ranch delivers quality livestock backed by decades of ranching expertise. Browse current inventory or connect directly for personalized service."
       buttons={[
         {
           text: "View Available Cattle",          href: "/inventory"},
@@ -66,7 +66,7 @@ export default function LandingPage() {
       <MetricSplitMediaAbout
       useInvertedBackground={false}
       title="Decades of Ranching Excellence in Pittsburgh, Kansas"
-      description="Ron Brock Ranching is dedicated to raising premium longhorn and commercial cattle. With a deep heritage in agricultural stewardship, we combine traditional values with modern practices to ensure superior genetics, health, and temperament in every animal. Our commitment to quality has made us a trusted name for ranchers and buyers across the region."
+      description="Silvercreek Ranch is dedicated to raising premium longhorn and commercial cattle. With a deep heritage in agricultural stewardship, we combine traditional values with modern practices to ensure superior genetics, health, and temperament in every animal. Our commitment to quality has made us a trusted name for ranchers and buyers across the region."
       metrics={[
         {
           value: "30+",          title: "Years of Experience"},
@@ -102,7 +102,7 @@ export default function LandingPage() {
         },
       ]}
       title="Unwavering Commitment to Premium Livestock"
-      description="At Ron Brock Ranching, our dedication to superior cattle is evident in every aspect of our operation, from meticulous breeding to daily animal welfare."
+      description="At Silvercreek Ranch, our dedication to superior cattle is evident in every aspect of our operation, from meticulous breeding to daily animal welfare."
       buttons={[
         {
           text: "Learn About Our Standards",          href: "#about"},
@@ -141,16 +141,16 @@ export default function LandingPage() {
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "1",          title: "Exceptional Quality Longhorns!",          quote: "Ron Brock Ranching provided us with some of the finest longhorns we've ever purchased. Their health and temperament are outstanding, a true testament to their care.",          name: "John Davis",          role: "Ranch Owner",          imageSrc: "http://img.b2bpic.net/free-photo/woman-gardner-looking-after-plants-greenhouse_1303-14072.jpg"},
+          id: "1",          title: "Exceptional Quality Longhorns!",          quote: "Ron Brock Ranching provided us with some of the finest longhorns we've ever purchased. Their health and temperament are outstanding, a true testament to their care.",          name: "John Davis",          role: "Ranch Owner",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774389083920-b18ohh1d.jpg"},
         {
-          id: "2",          title: "Reliable and Trustworthy Partner",          quote: "Working with Ron Brock was a fantastic experience. Transparent, knowledgeable, and genuinely committed to quality. We'll definitely be repeat buyers for our breeding stock.",          name: "Sarah Miller",          role: "Agricultural Investor",          imageSrc: "http://img.b2bpic.net/free-photo/closeup-content-pretty-businesswoman-glasses_1262-1740.jpg"},
+          id: "2",          title: "Reliable and Trustworthy Partner",          quote: "Working with Ron Brock was a fantastic experience. Transparent, knowledgeable, and genuinely committed to quality. We'll definitely be repeat buyers for our breeding stock.",          name: "Sarah Miller",          role: "Agricultural Investor",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774389083920-o61s5bng.jpg"},
         {
           id: "3",          title: "Highly Recommend for New Farmers",          quote: "As a hobby farmer expanding my operations, I needed guidance. Ron Brock made the process easy, providing healthy cattle and valuable advice. Couldn't be happier!",          name: "Michael Chen",          role: "Hobby Farmer",          imageSrc: "http://img.b2bpic.net/free-photo/young-handsome-cheerful-gardener-smiling-holding-pot-with-plant_176420-3830.jpg"},
         {
           id: "4",          title: "The Best Cattle in Kansas",          quote: "Ron Brock Ranching stands out for its exceptional livestock. From longhorns to commercial breeds, the quality is consistent, and the professionalism is unmatched.",          name: "Emily Johnson",          role: "Local Rancher",          imageSrc: "http://img.b2bpic.net/free-photo/worker-near-cistern-railway_1398-1878.jpg"},
       ]}
-      title="What Our Buyers Say"
-      description="Hear directly from ranchers and investors who have experienced the quality and service of Ron Brock Ranching."
+      title="The Story of Silvercreek Ranch"
+      description="Ron Brock and his father KW Brock built the ranch together, and Ron has taken care of it ever since by improving infrastructure, gating, and expanding the ranch."
       buttonAnimation="slide-up"
     />
   </div>
@@ -183,10 +183,10 @@ export default function LandingPage() {
       useInvertedBackground={true}
       background={{
         variant: "rotated-rays-static"}}
-      text="Ready to expand your herd or learn more? Contact Ron Brock Ranching today for personalized service and find the perfect cattle for your needs."
+      text="Ready to expand your herd or learn more? Contact Silvercreek Ranch today for personalized service and find the perfect cattle for your needs."
       buttons={[
         {
-          text: "Email Us",          href: "mailto:info@ronbrockranching.com"},
+          text: "Email Us",          href: "mailto:info@silvercreekranch.com"},
         {
           text: "Call Ron",          href: "tel:+16202314000"},
       ]}
@@ -246,7 +246,7 @@ export default function LandingPage() {
           ],
         },
       ]}
-      logoText="Ron Brock Ranching"
+      logoText="Silvercreek Ranch"
     />
   </div>
       </ReactLenis>
