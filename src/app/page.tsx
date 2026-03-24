@@ -69,7 +69,7 @@ export default function LandingPage() {
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517809-xlh1ah1o.jpg"
       imageAlt="Longhorn cattle in a snowy field"
       showDimOverlay={true}
-      buttonAnimation="slide-up"
+ 
     />
   </div>
 
