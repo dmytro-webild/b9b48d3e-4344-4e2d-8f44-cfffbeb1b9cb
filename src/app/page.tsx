@@ -196,7 +196,7 @@ export default function LandingPage() {
   <div id="names-numbers" data-section="names-numbers">
       <MetricSplitMediaAbout
       useInvertedBackground={false}
-      title="Key Metrics & Milestones"
+      title="Names and Numbers Page"
       description="Beyond our long-standing presence, these numbers highlight our tangible impact and commitment to quality. From the cattle we've raised to our consistent client satisfaction, our success is measured by more than just years."
       metrics={[
         {
