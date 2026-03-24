@@ -104,6 +104,7 @@ export default function LandingPage() {
       <FeatureCardTwentySix
       textboxLayout="default"
       useInvertedBackground={true}
+      buttonAnimation="slide-up"
       features={[
         {
           title: "Superior Genetics",
