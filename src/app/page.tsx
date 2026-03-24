@@ -145,10 +145,10 @@ export default function LandingPage() {
         {
           id: "3",          title: "Highly Recommend for New Farmers",          quote: "As a hobby farmer expanding my operations, I needed guidance. Ron Brock made the process easy, providing healthy cattle and valuable advice. Couldn't be happier!",          name: "Michael Chen",          role: "Hobby Farmer",          imageSrc: "http://img.b2bpic.net/free-photo/young-handsome-cheerful-gardener-smiling-holding-pot-with-plant_176420-3830.jpg"},
         {
-          id: "4",          title: "The Best Cattle in Kansas",          quote: "Ron Brock Ranching stands out for its exceptional livestock. From longhorns to commercial breeds, the quality is consistent, and the professionalism is unmatched.",          name: "Emily Johnson",          role: "Local Rancher",          imageSrc: "http://img.b2bpic.net/free-photo/worker-near-cistern-railway_1398-1878.jpg"},
+          id: "4",          title: "The Best Cattle in Kansas",          quote: "Ron Brock Ranching stands out for its exceptional livestock. From longhorns to commercial breeds, the quality is consistent, and the professionalism is unmatched.",          name: "Emily Johnson",          role: "Local Rancher",          imageSrc: "http://img.b2bpic.net/free-photo/worker-near-cistern-railway_1398-1878.jpg"}
       ]}
-      title="The Story of Silvercreek Ranch"
-      description="Ron Brock and his father KW Brock built the ranch together, and Ron has taken care of it ever since by improving infrastructure, gating, and expanding the ranch."
+      title="Trusted by Ranchers Across the Region"
+      description="Hear directly from our clients about the exceptional quality of our livestock and the reliable service they've experienced with Silvercreek Ranch."
       buttonAnimation="slide-up"
     />
   </div>
