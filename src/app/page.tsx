@@ -10,7 +10,7 @@ import HeroLogo from '@/components/sections/hero/HeroLogo';
 import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
-import { Zap, HeartPulse, Award, Eye } from 'lucide-react';
+import { Award, HeartPulse, Home, Syringe } from 'lucide-react';
 import TestimonialCardTen from '@/components/sections/testimonial/TestimonialCardTen';
 
 export default function LandingPage() {
@@ -91,23 +91,23 @@ export default function LandingPage() {
       buttonAnimation="blur-reveal"
       features={[
         {
-          title: "Superior Genetics",          description: "We carefully select breeding stock to ensure robust health, desirable traits, and excellent growth potential for both longhorns and commercial cattle.",          buttonIcon: Zap,
+          title: "Exceptional Quality & Genetics",          description: "Our rigorous breeding program focuses on superior genetics, ensuring robust health, desirable traits, and excellent growth potential for all our longhorn and commercial cattle. We aim for excellence in every animal.",          buttonIcon: Award,
         },
         {
-          title: "Optimal Health",          description: "Our herd receives meticulous care, including regular veterinary check-ups, balanced nutrition, and clean environments, ensuring prime condition for sale.",          buttonIcon: HeartPulse,
+          title: "Comprehensive Health Protocol",          description: "Every animal benefits from meticulous care, including regular veterinary check-ups, health certifications, and a balanced nutritional regimen. We ensure optimal well-being from birth.",          buttonIcon: HeartPulse,
         },
         {
-          title: "Proven Performance",          description: "Our cattle consistently demonstrate strong performance, whether for breeding, beef production, or expanding your own herd with reliable stock.",          buttonIcon: Award,
+          title: "Dedicated Daily Care",          description: "Our cattle enjoy a comfortable and clean environment with consistent daily care practices. We prioritize their well-being, ensuring they are calm, healthy, and accustomed to human interaction.",          buttonIcon: Home,
         },
         {
-          title: "Transparency & Trust",          description: "We provide comprehensive documentation and open communication, fostering trust with every transaction. What you see is what you get.",          buttonIcon: Eye,
+          title: "Vaccination & Administration",          description: "All our cattle are kept up-to-date with a comprehensive vaccination schedule and receive timely shots administration, all documented for buyer transparency and animal health assurance.",          buttonIcon: Syringe,
         },
       ]}
-      title="Our Commitment to Quality Livestock"
-      description="At Ron Brock Ranching, every animal reflects our dedication to superior breeding and care. We prioritize key attributes that ensure value for every buyer."
+      title="Unwavering Commitment to Premium Livestock"
+      description="At Ron Brock Ranching, our dedication to superior cattle is evident in every aspect of our operation, from meticulous breeding to daily animal welfare."
       buttons={[
         {
-          text: "Explore Details",          href: "/about-us"},
+          text: "Learn About Our Standards",          href: "#about"},
       ]}
     />
   </div>
@@ -120,16 +120,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "longhorn-1",          name: "Classic Longhorn Steer",          price: "Inquire for Price",          imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-beautiful-goat-eating-plants-bushy-garden-captured-sunny-day_181624-41495.jpg",          imageAlt: "Classic Longhorn Steer"},
+          id: "longhorn-1",          name: "Classic Longhorn Steer (Certified Health)",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171294-09aqo5qo.jpg",          imageAlt: "Classic Longhorn Steer"},
         {
-          id: "angus-1",          name: "Registered Angus Heifer",          price: "Inquire for Price",          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-beige-cow-with-horns_181624-35948.jpg",          imageAlt: "Registered Angus Heifer"},
+          id: "angus-1",          name: "Registered Angus Heifer (Excellent Condition)",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171296-favtlklr.jpg",          imageAlt: "Registered Angus Heifer"},
         {
-          id: "crossbreed-1",          name: "Commercial Crossbreed",          price: "Inquire for Price",          imageSrc: "http://img.b2bpic.net/free-photo/woman-with-cow-farm_23-2148568668.jpg",          imageAlt: "Commercial Crossbreed"},
+          id: "crossbreed-1",          name: "Commercial Crossbreed (Well-Cared For)",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171296-n96vwy1s.jpg",          imageAlt: "Commercial Crossbreed"},
         {
-          id: "longhorn-calf",          name: "Longhorn Calf",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517810-veaq91h1.jpg?_wi=1",          imageAlt: "Young longhorn calf"},
+          id: "longhorn-calf",          name: "Longhorn Calf (Vibrant & Healthy)",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171297-6pr85tx4.jpg",          imageAlt: "Young longhorn calf"},
       ]}
-      title="Our Current Cattle Inventory"
-      description="Browse our selection of premium longhorns and commercial cattle currently available for sale. Each animal is raised with care and ready for its new home."
+      title="Available Premium Cattle & Longhorns"
+      description="Explore our current inventory of robust longhorns and commercial cattle. Each animal comes with comprehensive health records and a history of dedicated care, ready to thrive in their new environment."
       buttons={[
         {
           text: "View All Inventory",          href: "/inventory"},
@@ -224,7 +224,7 @@ export default function LandingPage() {
             {
               label: "Home",              href: "/"},
             {
-              label: "About Us",              href: "/about-us"},
+              label: "About Us",              href: "#about"},
             {
               label: "Inventory",              href: "/inventory"},
           ],
@@ -232,11 +232,11 @@ export default function LandingPage() {
         {
           items: [
             {
-              label: "Names & Numbers",              href: "/names-numbers"},
+              label: "Names & Numbers",              href: "#names-numbers"},
             {
-              label: "Contact",              href: "/contact"},
+              label: "Contact",              href: "#contact"},
             {
-              label: "FAQ",              href: "/faq"},
+              label: "FAQ",              href: "#faq"},
           ],
         },
         {
