@@ -12,6 +12,7 @@ import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/Nav
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import { Award, HeartPulse, Home, Syringe } from 'lucide-react';
 import TestimonialCardTen from '@/components/sections/testimonial/TestimonialCardTen';
+import SplitAbout from '@/components/sections/about/SplitAbout';
 
 export default function LandingPage() {
   return (
@@ -32,11 +33,11 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",          id: "home"},
+          name: "Home",          id: "hero"},
         {
           name: "About",          id: "about"},
         {
-          name: "Inventory",          id: "inventory"},
+          name: "Inventory",          id: "products"},
         {
           name: "Names & Numbers",          id: "names-numbers"},
         {
@@ -52,7 +53,7 @@ export default function LandingPage() {
       description="Silvercreek Ranch delivers quality livestock backed by decades of ranching expertise. Browse current inventory or connect directly for personalized service."
       buttons={[
         {
-          text: "View Available Cattle",          href: "/inventory"},
+          text: "View Available Cattle",          href: "#products"},
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517809-xlh1ah1o.jpg"
       imageAlt="Longhorn cattle in a snowy field"
@@ -130,7 +131,7 @@ export default function LandingPage() {
       description="Explore our current inventory of robust longhorns and commercial cattle. Each animal comes with comprehensive health records and a history of dedicated care, ready to thrive in their new environment."
       buttons={[
         {
-          text: "View All Inventory",          href: "/inventory"},
+          text: "View All Inventory",          href: "#products"},
       ]}
     />
   </div>
@@ -194,23 +195,26 @@ export default function LandingPage() {
   </div>
 
   <div id="names-numbers" data-section="names-numbers">
-      <MetricSplitMediaAbout
+      <SplitAbout
       useInvertedBackground={false}
-      title="Names and Numbers Page"
-      description="Beyond our long-standing presence, these numbers highlight our tangible impact and commitment to quality. From the cattle we've raised to our consistent client satisfaction, our success is measured by more than just years."
-      metrics={[
+      title="Our Enduring Legacy in Ranching"
+      description="Silvercreek Ranch has a rich history built on dedication and excellence. Our commitment extends beyond just cattle; it's about fostering community and upholding the highest standards in agriculture."
+      bulletPoints={[
         {
-          value: "30+",          title: "Years of Experience"},
+          title: "Over 30 Years of Experience",          description: "Leveraging extensive knowledge in ranching and cattle management."},
         {
-          value: "100s",          title: "Cattle Sold"},
+          title: "Hundreds of Cattle Successfully Placed",          description: "A proven track record of successful placements with satisfied clients."},
         {
-          value: "Top",          title: "Tier Genetics"},
+          title: "Commitment to Top-Tier Genetics",          description: "Dedicated to superior breeding for healthy and high-quality livestock."},
+        {
+          title: "Community & Agricultural Stewardship",          description: "Actively supporting local farming communities and sustainable practices."}
       ]}
-      tag="Five Star Phone Books"
+      tag="Our Impact"
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517809-t78c1x07.jpg?_wi=2"
       imageAlt="Cattle grazing in a field at sunrise"
       mediaAnimation="slide-up"
-      metricsAnimation="slide-up"
+      textboxLayout="default"
+      imagePosition="right"
     />
   </div>
 
@@ -224,7 +228,7 @@ export default function LandingPage() {
             {
               label: "About Us",              href: "#about"},
             {
-              label: "Inventory",              href: "/inventory"},
+              label: "Inventory",              href: "#products"},
           ],
         },
         {
