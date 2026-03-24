@@ -78,15 +78,14 @@ export default function LandingPage() {
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517809-t78c1x07.jpg?_wi=1"
       imageAlt="Cattle grazing in a field at sunrise"
-      mediaAnimation="entrance-slide"
-      metricsAnimation="entrance-slide"
+      mediaAnimation="slide-up"
+      metricsAnimation="slide-up"
     />
   </div>
 
   <div id="features" data-section="features">
       <FeatureCardTwentySix
       textboxLayout="default"
-      buttonAnimation="slide-up"
       useInvertedBackground={true}
       buttonAnimation="blur-reveal"
       features={[
@@ -173,7 +172,7 @@ export default function LandingPage() {
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517810-veaq91h1.jpg?_wi=2"
       imageAlt="Cattle and calf on ranch"
-      mediaAnimation="entrance-slide"
+      mediaAnimation="slide-up"
       title="Frequently Asked Questions"
       description="Find answers to common questions about our cattle, purchasing process, and ranching practices."
       faqsAnimation="slide-up"
@@ -211,8 +210,8 @@ export default function LandingPage() {
       tag="Five Star Phone Books"
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517809-t78c1x07.jpg?_wi=2"
       imageAlt="Cattle grazing in a field at sunrise"
-      mediaAnimation="entrance-slide"
-      metricsAnimation="entrance-slide"
+      mediaAnimation="slide-up"
+      metricsAnimation="slide-up"
     />
   </div>
 
