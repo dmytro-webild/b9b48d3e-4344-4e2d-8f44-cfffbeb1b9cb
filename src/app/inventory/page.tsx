@@ -26,7 +26,7 @@ export default function InventoryPage() {
             navItems={[
               { name: "Home", id: "hero" },
               { name: "About", id: "about" },
-              { name: "Inventory", href: "/inventory" },
+              { name: "Inventory", id: "/inventory" },
               { name: "Contact", id: "contact" }
             ]}
             brandName="Silvercreek Ranch"
