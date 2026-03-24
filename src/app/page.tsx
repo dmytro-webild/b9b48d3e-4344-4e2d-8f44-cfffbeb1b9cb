@@ -116,13 +116,13 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "longhorn-1",          name: "Classic Longhorn Steer (Certified Health)",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171294-09aqo5qo.jpg",          imageAlt: "Classic Longhorn Steer"},
+          id: "longhorn-1",          name: "Classic Longhorn Steer (Certified Health)",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171294-09aqo5qo.jpg?_wi=2",          imageAlt: "Classic Longhorn Steer"},
         {
-          id: "angus-1",          name: "Registered Angus Heifer (Excellent Condition)",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171296-favtlklr.jpg",          imageAlt: "Registered Angus Heifer"},
+          id: "angus-1",          name: "Registered Angus Heifer (Excellent Condition)",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171296-favtlklr.jpg?_wi=2",          imageAlt: "Registered Angus Heifer"},
         {
-          id: "crossbreed-1",          name: "Commercial Crossbreed (Well-Cared For)",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171296-n96vwy1s.jpg",          imageAlt: "Commercial Crossbreed"},
+          id: "crossbreed-1",          name: "Commercial Crossbreed (Well-Cared For)",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171296-n96vwy1s.jpg?_wi=2",          imageAlt: "Commercial Crossbreed"},
         {
-          id: "longhorn-calf",          name: "Longhorn Calf (Vibrant & Healthy)",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171297-6pr85tx4.jpg",          imageAlt: "Young longhorn calf"},
+          id: "longhorn-calf",          name: "Longhorn Calf (Vibrant & Healthy)",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171297-6pr85tx4.jpg?_wi=2",          imageAlt: "Young longhorn calf"},
       ]}
       title="Available Premium Cattle & Longhorns"
       description="Explore our current inventory of robust longhorns and commercial cattle. Each animal comes with comprehensive health records and a history of dedicated care, ready to thrive in their new environment."
