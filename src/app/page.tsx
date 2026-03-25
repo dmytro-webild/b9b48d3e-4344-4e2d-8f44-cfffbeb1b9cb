@@ -55,7 +55,8 @@ export default function LandingPage() {
       imageAlt="Longhorn cattle in a snowy field"
       showDimOverlay={true}
       buttonAnimation="blur-reveal"
- 
+      imageClassName="object-center"
+      dimOverlayClassName="bg-black/50"
     />
   </div>
 
