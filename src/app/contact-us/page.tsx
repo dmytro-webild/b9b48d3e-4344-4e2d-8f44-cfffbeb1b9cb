@@ -56,6 +56,7 @@ export default function ContactUsPage() {
           <NavbarStyleFullscreen
             navItems={NAVBAR_NAV_ITEMS}
             brandName="Silvercreek Ranch"
+            button={{ text: "Contact Us", href: "/contact-us" }}
           />
         </div>
 
