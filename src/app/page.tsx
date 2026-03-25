@@ -66,9 +66,9 @@ export default function LandingPage() {
       description="Silvercreek Ranch, founded on integrity and sustainable stewardship, boasts a legacy of excellence in raising longhorn and commercial cattle. Our commitment ensures every animal embodies the heritage and future of quality ranching."
       metrics={[
         {
-          value: "30+",          title: "Years of Experience"},
+          value: "N/A",          title: "Years of Experience"},
         {
-          value: "500+",          title: "Satisfied Customers"},
+          value: "N/A",          title: "Satisfied Customers"},
         {
           value: "Top",          title: "Tier Genetics"},
       ]}
