@@ -20,7 +20,7 @@ export default function LandingPage() {
         borderRadius="pill"
         contentWidth="mediumLarge"
         sizing="medium"
-        background="fluid"
+        background="plain"
         cardStyle="gradient-bordered"
         primaryButtonStyle="primary-glow"
         secondaryButtonStyle="solid"
