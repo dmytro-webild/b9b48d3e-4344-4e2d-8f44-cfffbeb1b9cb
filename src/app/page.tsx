@@ -103,7 +103,7 @@ export default function LandingPage() {
       description="At Silvercreek Ranch, our dedication to superior cattle is evident in every aspect of our operation, from meticulous breeding to daily animal welfare."
       buttons={[
         {
-          text: "Learn About Our Standards",          href: "/#about"},
+          text: "View Our Inventory",          href: "/inventory"},
       ]}
     />
   </div>
