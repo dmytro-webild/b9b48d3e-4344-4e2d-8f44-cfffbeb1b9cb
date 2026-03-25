@@ -59,16 +59,22 @@ export default function ContactUsPage() {
           />
         </div>
 
-        <div id="contact-page-content" data-section="contact-page-content">
+        <div id="contact-page-content" data-section="contact-page-content"
+             style={{ backgroundImage: `url(https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774413967904-k0gz73u1.jpg)` }}
+             className="relative bg-cover bg-center flex items-center justify-center min-h-[calc(100vh-var(--height-navbar-desktop)-var(--height-footer-desktop))] md:min-h-[calc(100vh-var(--height-navbar-mobile)-var(--height-footer-mobile))] py-20">
+          {/* Added a subtle overlay for text readability */}
+          <div className="absolute inset-0 bg-black/20 z-10"></div>
           <ContactText
-            useInvertedBackground={true}
-            background={{
-              variant: "rotated-rays-static"}}
+            useInvertedBackground={false} // Use dark text for a light background
+            background={{ variant: "plain" }}
             text="Reach out to Silvercreek Ranch! You can contact us by phone at 620 704 7701. Our email is currently to be determined, please check back later for updates."
             buttons={[
               {
-                text: "Call Us",                href: "tel:+16207047701"},
+                text: "Call Us",                href: "tel:+16207047701"
+              },
             ]}
+            className="relative z-20 w-full max-w-2xl mx-auto"
+            contentClassName="bg-white/90 p-8 rounded-lg shadow-lg"
           />
         </div>
 
