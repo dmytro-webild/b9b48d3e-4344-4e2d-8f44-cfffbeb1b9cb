@@ -51,11 +51,11 @@ export default function LandingPage() {
         {
           text: "View Available Cattle",          href: "/inventory"},
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774415850794-arol9lrz.jpg"
-      imageAlt="Longhorn cattle in a snowy field"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774415882441-cmib1r44.jpg"
+      imageAlt="Cattle grazing in a field at sunrise"
       showDimOverlay={true}
       buttonAnimation="blur-reveal"
-      imageClassName="object-center"
+      imageClassName="object-cover w-full h-full"
       dimOverlayClassName="bg-black/50"
     />
   </div>
@@ -73,10 +73,11 @@ export default function LandingPage() {
         {
           value: "Top",          title: "Tier Genetics"},
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774415882441-cmib1r44.jpg"
-      imageAlt="Cattle grazing in a field at sunrise"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517810-veaq91h1.jpg?_wi=2"
+      imageAlt="Cattle and calf on ranch"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
+      imageClassName="object-cover w-full h-full"
     />
   </div>
 
@@ -114,21 +115,12 @@ export default function LandingPage() {
       textboxLayout="default"
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
-      products={[
-        {
-          id: "longhorn-1",          name: "Classic Longhorn Steer (Certified Health)",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171294-09aqo5qo.jpg?_wi=2",          imageAlt: "Classic Longhorn Steer"},
-        {
-          id: "angus-1",          name: "Registered Angus Heifer (Excellent Condition)",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171296-favtlklr.jpg?_wi=2",          imageAlt: "Registered Angus Heifer"},
-        {
-          id: "crossbreed-1",          name: "Commercial Crossbreed (Well-Cared For)",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171296-n96vwy1s.jpg?_wi=2",          imageAlt: "Commercial Crossbreed"},
-        {
-          id: "longhorn-calf",          name: "Longhorn Calf (Vibrant & Healthy)",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171297-6pr85tx4.jpg?_wi=2",          imageAlt: "Young longhorn calf"},
-      ]}
-      title="Available Premium Cattle & Longhorns"
-      description="Explore our current inventory of robust longhorns and commercial cattle. Each animal comes with comprehensive health records and a history of dedicated care, ready to thrive in their new environment."
+      products={[]}
+      title="Our Livestock Inventory"
+      description="Explore our comprehensive inventory of premium cattle on our dedicated inventory page. Click below to view all available animals."
       buttons={[
         {
-          text: "Inquire About Inventory",          href: "/contact-us"},
+          text: "View All Inventory",          href: "/inventory"},
       ]}
     />
   </div>
@@ -148,12 +140,13 @@ export default function LandingPage() {
         {
           id: "4",          title: "What is the purchasing process?",          content: "Once you select your desired cattle, we will discuss pricing and payment options. We can assist with arrangements for transport if needed. A health certificate will be provided for all sales."},
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517810-veaq91h1.jpg?_wi=2"
-      imageAlt="Cattle and calf on ranch"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774415850794-arol9lrz.jpg"
+      imageAlt="Longhorn cattle in a snowy field"
       mediaAnimation="slide-up"
       title="Frequently Asked Questions"
       description="Find answers to common questions about our cattle, purchasing process, and ranching practices."
       faqsAnimation="slide-up"
+      mediaClassName="object-cover w-full h-full"
     />
   </div>
 
