@@ -68,7 +68,7 @@ export default function LandingPage() {
         {
           value: "30+",          title: "Years of Experience"},
         {
-          value: "100s",          title: "Cattle Sold"},
+          value: "500+",          title: "Satisfied Customers"},
         {
           value: "Top",          title: "Tier Genetics"},
       ]}
