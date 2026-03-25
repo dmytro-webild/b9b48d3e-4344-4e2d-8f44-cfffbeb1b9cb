@@ -73,7 +73,7 @@ export default function LandingPage() {
         {
           value: "Top",          title: "Tier Genetics"},
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517809-t78c1x07.jpg?_wi=1"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774415882441-cmib1r44.jpg"
       imageAlt="Cattle grazing in a field at sunrise"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
