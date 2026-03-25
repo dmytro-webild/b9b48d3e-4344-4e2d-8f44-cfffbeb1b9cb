@@ -164,9 +164,7 @@ export default function LandingPage() {
       text="Ready to expand your herd or learn more? Contact Silvercreek Ranch today for personalized service and find the perfect cattle for your needs."
       buttons={[
         {
-          text: "Contact Us",          href: "/contact-us"},
-        {
-          text: "Call Ron",          href: "tel:+16202314000"},
+          text: "Contact Ron",          href: "/contact-us"}
       ]}
     />
   </div>
