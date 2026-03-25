@@ -51,7 +51,7 @@ export default function LandingPage() {
         {
           text: "View Available Cattle",          href: "/inventory"},
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517809-xlh1ah1o.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774415850794-arol9lrz.jpg"
       imageAlt="Longhorn cattle in a snowy field"
       showDimOverlay={true}
       buttonAnimation="blur-reveal"
