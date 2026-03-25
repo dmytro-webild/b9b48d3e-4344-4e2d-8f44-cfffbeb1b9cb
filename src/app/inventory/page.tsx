@@ -24,16 +24,20 @@ export default function InventoryPage() {
         <div id="nav" data-section="nav">
           <NavbarStyleFullscreen
             navItems={[
-              { name: "Home", id: "/" },
-              { name: "About", id: "/#about" },
-              { name: "Inventory", id: "/inventory" },
-              { name: "Contact", id: "/contact-us" }
+              {
+                name: "Home",          id: "/"},
+              {
+                name: "About",          id: "/#about"},
+              {
+                name: "Inventory",          id: "/inventory"},
+              {
+                name: "Contact",          id: "/contact-us"},
             ]}
             brandName="Silvercreek Ranch"
           />
         </div>
 
-        <div id="inventory-list" data-section="inventory-list">
+        <div id="inventory-products" data-section="inventory-products">
           <ProductCardOne
             animationType="slide-up"
             textboxLayout="default"
@@ -41,24 +45,19 @@ export default function InventoryPage() {
             useInvertedBackground={false}
             products={[
               {
-                id: "longhorn-maverick",                name: "Silvercreek's Maverick (Classic Longhorn Steer)",                price: "Inquire for Price",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171294-09aqo5qo.jpg?_wi=1",                imageAlt: "Classic Longhorn Steer Maverick"
-              },
+                id: "longhorn-1",          name: "Classic Longhorn Steer (Certified Health)",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171294-09aqo5qo.jpg?_wi=2",          imageAlt: "Classic Longhorn Steer"},
               {
-                id: "angus-beauty",                name: "Silvercreek's Black Beauty (Registered Angus Heifer)",                price: "Inquire for Price",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171296-favtlklr.jpg?_wi=1",                imageAlt: "Registered Angus Heifer Black Beauty"
-              },
+                id: "angus-1",          name: "Registered Angus Heifer (Excellent Condition)",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171296-favtlklr.jpg?_wi=2",          imageAlt: "Registered Angus Heifer"},
               {
-                id: "crossbreed-hardy",                name: "Silvercreek's Hardy Blend (Commercial Crossbreed)",                price: "Inquire for Price",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171296-n96vwy1s.jpg?_wi=1",                imageAlt: "Commercial Crossbreed Hardy Blend"
-              },
+                id: "crossbreed-1",          name: "Commercial Crossbreed (Well-Cared For)",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171296-n96vwy1s.jpg?_wi=2",          imageAlt: "Commercial Crossbreed"},
               {
-                id: "longhorn-star",                name: "Silvercreek's Little Star (Longhorn Calf)",                price: "Inquire for Price",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171297-6pr85tx4.jpg?_wi=1",                imageAlt: "Young longhorn calf Little Star"
-              }
+                id: "longhorn-calf",          name: "Longhorn Calf (Vibrant & Healthy)",          price: "Inquire for Price",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774386171297-6pr85tx4.jpg?_wi=2",          imageAlt: "Young longhorn calf"},
             ]}
-            title="Our Premium Cattle Inventory"
-            description="Explore our current selection of high-quality Longhorn and commercial cattle. Each animal is raised with meticulous care, adhering to rigorous health protocols and breeding standards to ensure superior genetics and temperament. Detailed information on health records, lineage, and specific traits is available upon inquiry."
+            title="Available Premium Cattle & Longhorns"
+            description="Explore our current inventory of robust longhorns and commercial cattle. Each animal comes with comprehensive health records and a history of dedicated care, ready to thrive in their new environment."
             buttons={[
               {
-                text: "Contact for Details",                href: "/contact-us" 
-              }
+                text: "Inquire About Inventory",          href: "/contact-us"},
             ]}
           />
         </div>
@@ -68,23 +67,30 @@ export default function InventoryPage() {
             columns={[
               {
                 items: [
-                  { label: "Home", href: "/" },
-                  { label: "About Us", href: "/#about" },
-                  { label: "Inventory", href: "/inventory" }
-                ]
+                  {
+                    label: "Home",              href: "/"},
+                  {
+                    label: "About Us",              href: "/#about"},
+                  {
+                    label: "Inventory",              href: "/inventory"},
+                ],
               },
               {
                 items: [
-                  { label: "Contact", href: "/contact-us" },
-                  { label: "FAQ", href: "/#faq" }
-                ]
+                  {
+                    label: "Contact",              href: "/contact-us"},
+                  {
+                    label: "FAQ",              href: "/#faq"},
+                ],
               },
               {
                 items: [
-                  { label: "Privacy Policy", href: "#" },
-                  { label: "Terms of Service", href: "#" }
-                ]
-              }
+                  {
+                    label: "Privacy Policy",              href: "#"},
+                  {
+                    label: "Terms of Service",              href: "#"},
+                ],
+              },
             ]}
             logoText="Silvercreek Ranch"
           />
