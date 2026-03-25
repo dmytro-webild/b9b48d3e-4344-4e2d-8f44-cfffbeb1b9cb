@@ -8,9 +8,12 @@ import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 
 export default function ContactUsPage() {
   const handleSubmit = (data: Record<string, string>) => {
-    console.log("Form submitted:", data);
-    // Implement actual form submission logic here (e.g., API call)
-    alert("Thank you for your message!");
+    const { name, email, phone, message } = data;
+    const subject = encodeURIComponent("Contact Form Submission from Silvercreek Ranch Website");
+    const body = encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\nPhone: ${phone || 'N/A'}\nMessage:\n${message}`
+    );
+    window.location.href = `mailto:rbrock@namesandnumbers.com?subject=${subject}&body=${body}`;
   };
 
   return (
@@ -54,11 +57,14 @@ export default function ContactUsPage() {
             }}
             useInvertedBackground={false}
             mediaPosition="right"
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517810-veaq91h1.jpg?_wi=2"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774415483674-8phn8ad0.jpg"
             imageAlt="Cattle and calf on ranch"
             buttonText="Send Message"
             onSubmit={handleSubmit}
           />
+          <p className="mt-8 text-center text-lg text-foreground-secondary md:text-xl">
+            For all other inquiries and a direct phone line, reach out to me via (620) 704-7701
+          </p>
         </div>
 
         <div id="footer" data-section="footer">
