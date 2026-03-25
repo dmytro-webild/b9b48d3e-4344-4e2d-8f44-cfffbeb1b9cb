@@ -20,7 +20,7 @@ export default function LandingPage() {
         borderRadius="pill"
         contentWidth="mediumLarge"
         sizing="medium"
-        background="circleGradient"
+        background="none"
         cardStyle="gradient-bordered"
         primaryButtonStyle="primary-glow"
         secondaryButtonStyle="solid"
@@ -35,9 +35,9 @@ export default function LandingPage() {
         {
           name: "About",          id: "/#about"},
         {
-          name: "Inventory",          id: "/inventory"},
+          name: "Inventory",          id: "/#products"},
         {
-          name: "Contact",          id: "/contact-us"},
+          name: "Contact",          id: "/#contact"},
       ]}
       brandName="Silvercreek Ranch"
     />
@@ -49,7 +49,7 @@ export default function LandingPage() {
       description="Silvercreek Ranch delivers quality livestock backed by decades of ranching expertise. Browse current inventory or connect directly for personalized service."
       buttons={[
         {
-          text: "View Available Cattle",          href: "/inventory"},
+          text: "View Available Cattle",          href: "/#products"},
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774415882441-cmib1r44.jpg"
       imageAlt="Cattle grazing in a field at sunrise"
@@ -104,7 +104,7 @@ export default function LandingPage() {
       description="At Silvercreek Ranch, our dedication to superior cattle is evident in every aspect of our operation, from meticulous breeding to daily animal welfare."
       buttons={[
         {
-          text: "View Our Inventory",          href: "/inventory"},
+          text: "View Our Inventory",          href: "/#products"},
       ]}
     />
   </div>
@@ -120,7 +120,7 @@ export default function LandingPage() {
       description="Explore our comprehensive inventory of premium cattle on our dedicated inventory page. Click below to view all available animals."
       buttons={[
         {
-          text: "View All Inventory",          href: "/inventory"},
+          text: "View All Inventory",          href: "/#products"},
       ]}
     />
   </div>
@@ -158,7 +158,7 @@ export default function LandingPage() {
       text="Ready to expand your herd or learn more? Contact Silvercreek Ranch today for personalized service and find the perfect cattle for your needs."
       buttons={[
         {
-          text: "Contact Ron",          href: "/contact-us"}
+          text: "Contact Ron",          href: "/#contact"}
       ]}
     />
   </div>
@@ -173,13 +173,13 @@ export default function LandingPage() {
             {
               label: "About Us",              href: "/#about"},
             {
-              label: "Inventory",              href: "/inventory"},
+              label: "Inventory",              href: "/#products"},
           ],
         },
         {
           items: [
             {
-              label: "Contact",              href: "/contact-us"},
+              label: "Contact",              href: "/#contact"},
             {
               label: "FAQ",              href: "/#faq"},
           ],
