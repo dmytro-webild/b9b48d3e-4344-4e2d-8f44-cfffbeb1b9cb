@@ -30,7 +30,7 @@ export default function ContactUsPage() {
       headingFontWeight="extrabold"
     >
       <ReactLenis root>
-        <div id="nav" data-section="nav">
+        <div id="nav" data-section="nav" className="z-50 relative">
           <NavbarStyleFullscreen
             navItems={[
               { name: "Home", id: "/" },
@@ -51,10 +51,7 @@ export default function ContactUsPage() {
               { name: "email", type: "email", placeholder: "Your Email", required: true },
               { name: "phone", type: "tel", placeholder: "Your Phone (Optional)" }
             ]}
-            textarea={{
-              name: "message",              placeholder: "Your Message",              rows: 5,
-              required: true
-            }}
+            textarea={{ name: "message", placeholder: "Your Message", rows: 5, required: true }}
             useInvertedBackground={false}
             mediaPosition="right"
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774415483674-8phn8ad0.jpg"
@@ -70,25 +67,9 @@ export default function ContactUsPage() {
         <div id="footer" data-section="footer">
           <FooterLogoEmphasis
             columns={[
-              {
-                items: [
-                  { label: "Home", href: "/" },
-                  { label: "About Us", href: "/#about" },
-                  { label: "Inventory", href: "/inventory" }
-                ]
-              },
-              {
-                items: [
-                  { label: "Contact", href: "/contact-us" },
-                  { label: "FAQ", href: "/#faq" }
-                ]
-              },
-              {
-                items: [
-                  { label: "Privacy Policy", href: "#" },
-                  { label: "Terms of Service", href: "#" }
-                ]
-              }
+              { items: [{ label: "Home", href: "/" }, { label: "About Us", href: "/#about" }, { label: "Inventory", href: "/inventory" }] },
+              { items: [{ label: "Contact", href: "/contact-us" }, { label: "FAQ", href: "/#faq" }] },
+              { items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms of Service", href: "#" }] }
             ]}
             logoText="Silvercreek Ranch"
           />
