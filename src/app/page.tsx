@@ -27,17 +27,13 @@ export default function LandingPage() {
         headingFontWeight="extrabold"
     >
       <ReactLenis root>
-  <div id="nav" data-section="nav">
+  <div id="nav" data-section="nav" className="z-50 relative">
       <NavbarStyleFullscreen
       navItems={[
-        {
-          name: "Home",          id: "/"},
-        {
-          name: "About",          id: "/#about"},
-        {
-          name: "Inventory",          id: "/#products"},
-        {
-          name: "Contact",          id: "/#contact"},
+        { name: "Home", id: "/" },
+        { name: "About", id: "/#about" },
+        { name: "Inventory", id: "/inventory" },
+        { name: "Contact", id: "/contact-us" },
       ]}
       brandName="Silvercreek Ranch"
     />
@@ -48,8 +44,7 @@ export default function LandingPage() {
       logoText="Silvercreek Ranch"
       description="Silvercreek Ranch delivers quality livestock backed by decades of ranching expertise. Browse current inventory or connect directly for personalized service."
       buttons={[
-        {
-          text: "View Available Cattle",          href: "/#products"},
+        { text: "View Available Cattle", href: "/inventory" },
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774415882441-cmib1r44.jpg"
       imageAlt="Cattle grazing in a field at sunrise"
@@ -66,12 +61,9 @@ export default function LandingPage() {
       title="Decades of Ranching Excellence in Pittsburg, Kansas"
       description="Silvercreek Ranch, founded on integrity and sustainable stewardship, boasts a legacy of excellence in raising longhorn and commercial cattle. Our commitment ensures every animal embodies the heritage and future of quality ranching."
       metrics={[
-        {
-          value: "N/A",          title: "Years of Experience"},
-        {
-          value: "N/A",          title: "Satisfied Customers"},
-        {
-          value: "Top",          title: "Tier Genetics"},
+        { value: "N/A", title: "Years of Experience" },
+        { value: "N/A", title: "Satisfied Customers" },
+        { value: "Top", title: "Tier Genetics" },
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774383517810-veaq91h1.jpg?_wi=2"
       imageAlt="Cattle and calf on ranch"
@@ -87,24 +79,15 @@ export default function LandingPage() {
       useInvertedBackground={true}
       buttonAnimation="blur-reveal"
       features={[
-        {
-          title: "Exceptional Quality & Genetics",          description: "Our rigorous breeding program focuses on superior genetics, ensuring robust health, desirable traits, and excellent growth potential for all our longhorn and commercial cattle. We aim for excellence in every animal.",          buttonIcon: Award,
-        },
-        {
-          title: "Comprehensive Health Protocol",          description: "Every animal benefits from meticulous care, including regular veterinary check-ups, health certifications, and a balanced nutritional regimen. We ensure optimal well-being from birth.",          buttonIcon: HeartPulse,
-        },
-        {
-          title: "Dedicated Daily Care",          description: "Our cattle enjoy a comfortable and clean environment with consistent daily care practices. We prioritize their well-being, ensuring they are calm, healthy, and accustomed to human interaction.",          buttonIcon: Home,
-        },
-        {
-          title: "Vaccination & Administration",          description: "All our cattle are kept up-to-date with a comprehensive vaccination schedule and receive timely shots administration, all documented for buyer transparency and animal health assurance.",          buttonIcon: Syringe,
-        },
+        { title: "Exceptional Quality & Genetics", description: "Our rigorous breeding program focuses on superior genetics, ensuring robust health, desirable traits, and excellent growth potential for all our longhorn and commercial cattle. We aim for excellence in every animal.", buttonIcon: Award },
+        { title: "Comprehensive Health Protocol", description: "Every animal benefits from meticulous care, including regular veterinary check-ups, health certifications, and a balanced nutritional regimen. We ensure optimal well-being from birth.", buttonIcon: HeartPulse },
+        { title: "Dedicated Daily Care", description: "Our cattle enjoy a comfortable and clean environment with consistent daily care practices. We prioritize their well-being, ensuring they are calm, healthy, and accustomed to human interaction.", buttonIcon: Home },
+        { title: "Vaccination & Administration", description: "All our cattle are kept up-to-date with a comprehensive vaccination schedule and receive timely shots administration, all documented for buyer transparency and animal health assurance.", buttonIcon: Syringe },
       ]}
       title="Unwavering Commitment to Premium Livestock"
       description="At Silvercreek Ranch, our dedication to superior cattle is evident in every aspect of our operation, from meticulous breeding to daily animal welfare."
       buttons={[
-        {
-          text: "View Our Inventory",          href: "/#products"},
+        { text: "View Our Inventory", href: "/inventory" },
       ]}
     />
   </div>
@@ -119,26 +102,20 @@ export default function LandingPage() {
       title="Our Livestock Inventory"
       description="Explore our comprehensive inventory of premium cattle on our dedicated inventory page. Click below to view all available animals."
       buttons={[
-        {
-          text: "View All Inventory",          href: "/#products"},
+        { text: "View All Inventory", href: "/inventory" },
       ]}
     />
   </div>
-
 
   <div id="faq" data-section="faq">
       <FaqSplitMedia
       textboxLayout="default"
       useInvertedBackground={false}
       faqs={[
-        {
-          id: "1",          title: "What breeds of cattle do you offer?",          content: "We specialize in premium Texas Longhorns and high-quality commercial cattle, primarily Angus and Hereford crosses, suitable for various purposes including breeding, show, and beef production."},
-        {
-          id: "2",          title: "How do you ensure animal health?",          content: "Our cattle receive regular veterinary care, vaccinations, and are fed a balanced diet. We maintain detailed health records for all our animals, which are available upon request for serious buyers."},
-        {
-          id: "3",          title: "Can I visit the ranch to view cattle?",          content: "Yes, we welcome potential buyers to visit our ranch in Pittsburgh, Kansas, by appointment. Please contact us to schedule a convenient time."},
-        {
-          id: "4",          title: "What is the purchasing process?",          content: "Once you select your desired cattle, we will discuss pricing and payment options. We can assist with arrangements for transport if needed. A health certificate will be provided for all sales."},
+        { id: "1", title: "What breeds of cattle do you offer?", content: "We specialize in premium Texas Longhorns and high-quality commercial cattle, primarily Angus and Hereford crosses, suitable for various purposes including breeding, show, and beef production." },
+        { id: "2", title: "How do you ensure animal health?", content: "Our cattle receive regular veterinary care, vaccinations, and are fed a balanced diet. We maintain detailed health records for all our animals, which are available upon request for serious buyers." },
+        { id: "3", title: "Can I visit the ranch to view cattle?", content: "Yes, we welcome potential buyers to visit our ranch in Pittsburgh, Kansas, by appointment. Please contact us to schedule a convenient time." },
+        { id: "4", title: "What is the purchasing process?", content: "Once you select your desired cattle, we will discuss pricing and payment options. We can assist with arrangements for transport if needed. A health certificate will be provided for all sales." },
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BPGqDHkHNlD7Jj15SOQkZlknFX/uploaded-1774415850794-arol9lrz.jpg"
       imageAlt="Longhorn cattle in a snowy field"
@@ -153,12 +130,10 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactText
       useInvertedBackground={true}
-      background={{
-        variant: "rotated-rays-static"}}
+      background={{ variant: "rotated-rays-static" }}
       text="Ready to expand your herd or learn more? Contact Silvercreek Ranch today for personalized service and find the perfect cattle for your needs."
       buttons={[
-        {
-          text: "Contact Ron",          href: "/#contact"}
+        { text: "Contact Ron", href: "/contact-us" }
       ]}
     />
   </div>
@@ -166,32 +141,9 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterLogoEmphasis
       columns={[
-        {
-          items: [
-            {
-              label: "Home",              href: "/"},
-            {
-              label: "About Us",              href: "/#about"},
-            {
-              label: "Inventory",              href: "/#products"},
-          ],
-        },
-        {
-          items: [
-            {
-              label: "Contact",              href: "/#contact"},
-            {
-              label: "FAQ",              href: "/#faq"},
-          ],
-        },
-        {
-          items: [
-            {
-              label: "Privacy Policy",              href: "#"},
-            {
-              label: "Terms of Service",              href: "#"},
-          ],
-        },
+        { items: [{ label: "Home", href: "/" }, { label: "About Us", href: "/#about" }, { label: "Inventory", href: "/inventory" }] },
+        { items: [{ label: "Contact", href: "/contact-us" }, { label: "FAQ", href: "/#faq" }] },
+        { items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms of Service", href: "#" }] },
       ]}
       logoText="Silvercreek Ranch"
     />
